@@ -6,7 +6,7 @@ import { _t } from "@web/core/l10n/translation";
 publicWidget.registry.hrRecruitment = publicWidget.Widget.extend({
     selector : '#hr_recruitment_form',
     events: {
-        'click #apply-btn': '_onClickApplyButton',
+        // 'click #apply-btn': '_onClickApplyButton',
         'focusout #recruitment2' : '_onFocusOutMail',
         'focusout #recruitment4' : '_onFocusOutLinkedin',
     },
